@@ -8,7 +8,7 @@ const App: React.FC = () => {
   const zaloNumber2 = "0868609729";
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6 relative overflow-hidden bg-black text-white">
+    <div className="min-h-screen flex flex-col items-center justify-center p-6 relative overflow-hidden bg-black text-white isolate">
       <Background3D />
 
       {/* Floating Zalo Contacts - Siêu gọn trên mobile/tablet */}
@@ -52,7 +52,7 @@ const App: React.FC = () => {
       </nav>
 
       {/* Main Content */}
-      <main className="max-w-5xl w-full text-center z-10 flex flex-col items-center">
+      <main className="relative z-10 max-w-5xl w-full text-center flex flex-col items-center">
         <div className="inline-block px-5 py-2 mb-8 rounded-full border border-cyan-500/30 bg-cyan-500/10 backdrop-blur-md animate-bounce shadow-[0_0_15px_rgba(34,211,238,0.2)]">
            <span className="text-[10px] md:text-xs font-bold tracking-[0.3em] text-cyan-300 uppercase">
              Merry Christmas & Happy New Year

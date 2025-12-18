@@ -69,7 +69,36 @@
         .aurora-bg {
             animation: aurora 10s ease-in-out infinite;
         }
-    </style>
+    
+        /* Dây đèn Noel (twinkle lights) */
+        @keyframes twinkle {
+            0%, 100% { transform: translateY(0) scale(0.95); filter: brightness(0.8); }
+            50% { transform: translateY(-1px) scale(1.1); filter: brightness(1.25); }
+        }
+
+        .christmas-light {
+            position: absolute;
+            top: 6px;
+            border-radius: 9999px;
+            box-shadow: 0 0 10px rgba(255,255,255,0.45);
+            animation-name: twinkle;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+        .christmas-light--amber {
+            background: rgba(245, 158, 11, 0.95);
+            box-shadow: 0 0 14px rgba(245, 158, 11, 0.55);
+        }
+        .christmas-light--red {
+            background: rgba(239, 68, 68, 0.95);
+            box-shadow: 0 0 14px rgba(239, 68, 68, 0.55);
+        }
+        .christmas-light--emerald {
+            background: rgba(16, 185, 129, 0.95);
+            box-shadow: 0 0 14px rgba(16, 185, 129, 0.55);
+        }
+
+</style>
 <link rel="stylesheet" href="/index.css">
 </head>
 <body>
