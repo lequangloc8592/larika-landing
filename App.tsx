@@ -4,7 +4,7 @@ import Background3D from './components/Background3D';
 
 const App: React.FC = () => {
   // Liên hệ thực tế của bạn
-  const zaloNumber1 = "0707922049"; 
+  const zaloNumber1 = "0707922049";
   const zaloNumber2 = "0868609729";
 
   return (
@@ -17,10 +17,10 @@ const App: React.FC = () => {
           { num: zaloNumber1, id: 'Z1', label: 'Liên hệ', sub: 'Zalo 1' },
           { num: zaloNumber2, id: 'Z2', label: 'Hỗ trợ', sub: 'Zalo 2' }
         ].map((item, idx) => (
-          <a 
+          <a
             key={idx}
-            href={`https://zalo.me/${item.num}`} 
-            target="_blank" 
+            href={`https://zalo.me/${item.num}`}
+            target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center bg-zinc-950/80 border border-amber-500/30 p-1.5 lg:p-2 pr-1.5 lg:pr-5 rounded-r-full backdrop-blur-xl hover:bg-amber-500 transition-all duration-500 hover:translate-x-2 shadow-[5px_0_30px_rgba(245,158,11,0.1)]"
           >
@@ -40,13 +40,13 @@ const App: React.FC = () => {
         <div className="flex items-center gap-4 group cursor-pointer">
           <div className="relative">
             <div className="w-10 h-10 md:w-12 md:h-12 border-2 border-amber-500 rounded-lg flex items-center justify-center rotate-45 group-hover:rotate-180 transition-transform duration-700 shadow-[0_0_20px_rgba(245,158,11,0.4)]">
-               {/* Màu xanh ngọc bg-cyan-400 phù hợp với theme tuyết/Noel và công nghệ */}
-               <div className="w-5 h-5 md:w-6 md:h-6 bg-cyan-400 rounded-sm shadow-[0_0_15px_#22d3ee]"></div>
+              {/* Màu xanh ngọc bg-cyan-400 phù hợp với theme tuyết/Noel và công nghệ */}
+              <div className="w-5 h-5 md:w-6 md:h-6 bg-cyan-400 rounded-sm shadow-[0_0_15px_#22d3ee]"></div>
             </div>
             <div className="absolute inset-0 border border-cyan-500/50 rounded-lg animate-ping opacity-20"></div>
           </div>
-          <span className="text-3xl md:text-4xl font-space font-bold tracking-tighter text-white">
-            LARIKASHOP<span className="text-amber-500">.</span>COM
+          <span className="text-3xl md:text-4xl font-space font-bold tracking-tighter text-white brand-line">
+            <span className="larika-hat">LARIKA</span>SHOP<span className="text-amber-500">.</span>COM
           </span>
         </div>
       </nav>
@@ -54,13 +54,13 @@ const App: React.FC = () => {
       {/* Main Content */}
       <main className="relative z-10 max-w-5xl w-full text-center flex flex-col items-center">
         <div className="inline-block px-5 py-2 mb-8 rounded-full border border-cyan-500/30 bg-cyan-500/10 backdrop-blur-md animate-bounce shadow-[0_0_15px_rgba(34,211,238,0.2)]">
-           <span className="text-[10px] md:text-xs font-bold tracking-[0.3em] text-cyan-300 uppercase">
-             Merry Christmas & Happy New Year
-           </span>
+          <span className="text-[10px] md:text-xs font-bold tracking-[0.3em] text-cyan-300 uppercase">
+            Merry Christmas & Happy New Year
+          </span>
         </div>
 
         <h1 className="text-5xl md:text-9xl font-space font-extrabold tracking-tighter mb-8 leading-[1.1] md:leading-[0.9] text-glow-gold">
-          THÍCH LÀ IN <br /> 
+          THÍCH LÀ IN <br />
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-500 via-white to-amber-500">
             NHÌN LÀ MÊ
           </span>
