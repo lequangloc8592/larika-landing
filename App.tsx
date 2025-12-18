@@ -46,7 +46,7 @@ const App: React.FC = () => {
             <div className="absolute inset-0 border border-cyan-500/50 rounded-lg animate-ping opacity-20"></div>
           </div>
           <span className="text-3xl md:text-4xl font-space font-bold tracking-tighter text-white">
-            LARIKA<span className="text-amber-500">.</span>COM
+            LARIKASHOP<span className="text-amber-500">.</span>COM
           </span>
         </div>
       </nav>
