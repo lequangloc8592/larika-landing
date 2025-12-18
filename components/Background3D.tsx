@@ -59,12 +59,7 @@ const Background3D: React.FC = () => {
       {/* Grid Floor 3D perspective */}
       <div className="absolute bottom-0 left-0 w-full h-[50vh] bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:40px_40px] [transform:perspective(1000px)_rotateX(60deg)] [mask-image:linear-gradient(to_top,black,transparent)] opacity-40"></div>
 
-      {/* Floating 3D Printed Ornaments (Decorative) */}
-      <div className="absolute inset-0 flex items-center justify-center opacity-40">
-        <div className="absolute top-1/4 left-1/4 w-32 h-32 border border-amber-500/20 rounded-xl animate-float" style={{ animationDelay: '0s' }}></div>
-        <div className="absolute bottom-1/3 right-1/4 w-48 h-48 border border-white/10 rounded-full animate-float" style={{ animationDelay: '-2s' }}></div>
-        <div className="absolute top-1/2 right-1/3 w-20 h-20 border border-emerald-500/20 rotate-45 animate-float" style={{ animationDelay: '-4s' }}></div>
-      </div>
+      {/* (Ẩn) Khung trang trí 3D — bỏ để tránh hiện “ô vuông dư” trên nền */}
 
       {/* Hiệu ứng Tuyết rơi */}
       {snowData.map((snow) => (
