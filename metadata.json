@@ -1,0 +1,7 @@
+{
+  "name": "Larika 3D Printing Coming Soon",
+  "description": "A visually stunning and interactive landing page for Larika.com 3D printing service, featuring futuristic animations and an AI-powered printing consultant.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
